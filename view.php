@@ -26,7 +26,6 @@
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-        // 输出数据
         while($row = $result->fetch_assoc()) {
             echo "<div style='width: 1600px; height: 260px; background: #ffffff; border-radius: 10px; transition: all 0.4s; overflow-x: hidden;
             overflow-y: scroll;' class='shadow'>";
@@ -57,7 +56,7 @@
             echo "</div>";
         }
     } else {
-        echo "0 结果";
+        echo "这里空空如也 :(";
     }
     $conn->close();
     ?>
