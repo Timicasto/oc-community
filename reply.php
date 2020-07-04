@@ -19,7 +19,7 @@ $posttime = $showtime=date("Y-m-d H:i:s");
 $sql = "INSERT INTO reply(username, posttime, message, content) VALUES ('$usernamere', '$posttime', '$message', '$repcontent')";
 $r = mysqli_query($link, $sql);
 if ($r) {
-    echo '恭喜你，发送成功！<a href="ui/main.html">回到首页</a>';
+    echo '恭喜你，发送成功！<a href="ui/main.html">回到首页 </a>';
 } else {
     echo "发送失败 请再来一次或联系管理员 " . $conn->error;
 }
