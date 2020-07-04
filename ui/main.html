@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<title>Home Page - OC</title>
+</head>
+
+<body class="bg">
+<script>
+function time()
+{
+	if (window.XMLHttpRequest)
+	{
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange=function()
+	{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			document.getElementById("ajax").innerHTML=xmlhttp.responseText;
+		}
+	}
+	xmlhttp.open("GET","../view.php",true);
+	xmlhttp.send();
+}
+</script>
+	<script>
+		function timebutton(){
+			document.getElementById("time").innerHTML = "test"
+		}
+	</script>
+	<div class="title"><b style="font-weight: 800; text-align: center; ">OC社区</b></div>
+	<div class="select-ball1" onClick="time()" id="time"><img src="icons/时间 (1).png" style="width: 40px"></div>
+	<div class="select-ball2"><img src="icons/分类图标.png" style="width: 30px; position: relative; top: 5.5px; left: 6px; "></div>
+	<div class="select-ball3"><img src="icons/HeartUnselected.png" style="width: 30px; position: relative; top: 5.5px; left: 6px;"></div>
+	<div class="account"><b>[placeholder]</b></div>
+	<a href="../reg.php"> <div class="banner-account"><img src="icons/export/img.png" class="icon"></div></a>
+	<div class="settings"><img src="icons/settings.png" class="settings-img"></div>
+	<div id="ajax" class="ajax"></div>
+	
+	<a href="../new.php"><div class="ball">
+		<b class="add">+</b></div></a>
+</body>
+</html>
