@@ -2,10 +2,6 @@
 
 header('Content-Type:text/html; charset=utf-8');
 $content = $_GET['title'];
-/*
-回帖
- */
-?>
 
 <!DOCTYPE html>
 <html>
