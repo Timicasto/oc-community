@@ -3,10 +3,10 @@ $title = $_GET["title"];
 echo $title;
 
 $rs = mysqli_query($link, $sql);
-$servername = "database.idatac.com";
+$servername = "mySQL serverip or domain";
 $username = "oc";
-$password = "cf286b25a022976f6bd75a5be7b8a442ce0b078d";
-$dbname = "oc";
+$password = "passwd";
+$dbname = "database name";
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
