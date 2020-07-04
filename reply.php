@@ -23,5 +23,4 @@ if ($r) {
 } else {
     echo "发送失败 请再来一次或联系管理员 " . $conn->error;
 }
-session_abort();
 ?>
