@@ -17,5 +17,7 @@
 <li>务必要将Apache的主页改为main.html
 <br>
 <img src="https://i.loli.net/2020/07/04/CBHQsWXDcurlyZw.png" alt="Apache主页"></li>
-<li>而在访问时请访问<a href="http://您的域名/ui">http://您的域名/ui</a></li>
+<li>而在访问时请访问<a href="http://您的域名/ui">http://您的域名/ui</a><h3 id="-link-php-ui-post-php-mysql-mysql">请在下载源码后自行更改&quot;link.php&quot;和&quot;ui/post.php&quot;中的MySQL连接配置以便于您能正确连接MySQL</h3>
+<h4 id="mysql-http-timicasto-pd2-ink-12000-sheets-png">MySQL的表设计: <a href="http://timicasto.pd2.ink:12000/sheets.png">http://timicasto.pd2.ink:12000/sheets.png</a></h4>
+</li>
 </ul>
