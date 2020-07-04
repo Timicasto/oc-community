@@ -17,4 +17,5 @@
 <li>务必要将Apache的主页改为main.html
 <br>
 <img src="https://i.loli.net/2020/07/04/CBHQsWXDcurlyZw.png" alt="Apache主页"></li>
+<li>而在访问时请访问<a href="http://您的域名/ui">http://您的域名/ui</a></li>
 </ul>
