@@ -1,4 +1,5 @@
 <?php
+
 function  uuid()
 {
     $chars = md5(uniqid(mt_rand(), true));
