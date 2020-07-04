@@ -1,9 +1,6 @@
 <?php
 
 header('Content-Type:text/html; charset=utf-8');
-/*
-发帖页面
- */
 ?>
 
 <!DOCTYPE html>
