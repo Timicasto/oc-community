@@ -1,6 +1,5 @@
 ﻿<?php
 include('./link.php');
-
 $username = $_POST['username'];
 $password = md5( $_POST['password'] );
 $sql = "SELECT * FROM member WHERE username='$username' AND password='$password'";
