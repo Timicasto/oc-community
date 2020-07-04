@@ -37,6 +37,7 @@ function  uuid()
 $uuid = uuid();
 $sql = "INSERT INTO post(username, posttime, title, message, uuid) VALUES ('$username', '$time', '$title', '$message', '$uuid')";
 $r = mysqli_query($link, $sql);
+
 if ($r) {
     echo '恭喜你，发送成功！';
     echo '您的帖子uuid为: ';
