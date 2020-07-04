@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link{
+text-decoration:none;
+color:white;
+}
+
+@font-face{
+	font-family: heavy; 
+	src: url("./SourceHanSansTC-Heavy.otf")
+}
+
+.ball{
+	width: 80px; 
+	height: 80px; 
+	background: #0D90FF; 
+	border-radius: 50%; 
+	transition: 0.4s; 
+	position: absolute; 
+	left: 85%; 
+	top: 80%; 
+}
+
+.add{
+	text-align: center; 
+	font-size: 300%; 
+	position: relative; 
+	top: 0px; 
+	left: 25.5px; 
+	font-family: heavy;
+	color: #FFFFFF; 
+	font-weight: 100;
+}
+
+.ball:hover{
+	transform: rotate(45deg); 
+}
+
+.title{ 
+	width: 200px; 
+	height: 40px; 
+	position: relative; 
+	left: 20px; 
+	top: 30px; 
+	font-size: 150%; 
+}
+
+.select-ball1{
+	width: 40px; 
+	height: 40px; 
+	border-radius: 50%; 
+	background: #FFFFFF; 
+	position: relative; 
+	top: 80px; 
+	left: 20px;
+	background-image: url("icons/时间-线.svg")
+}
+
+.select-ball2{
+	width: 40px; 
+	height: 40px; 
+	border-radius: 50%; 
+	background: #FFFFFF; 
+	position: relative; 
+	top: 100px; 
+	left: 20px;
+}
+
+.select-ball3{
+	width: 40px; 
+	height: 40px; 
+	border-radius: 50%; 
+	background: #FFFFFF; 
+	position: relative; 
+	top: 120px; 
+	left: 20px;
+}
+
+.account{
+	width: 200px; 
+	height: 45px; 
+	background: #EAEAEA; 
+	border-radius: 8px; 
+	position: relative; 
+	top: -132.5px;
+	left: 65%; 
+}
+
+.banner-account{
+	width: 40px; 
+	height: 40px; 
+	position: relative; 
+	top: -175px; 
+	left: 85%; 
+	border-radius: 50%; 
+}
+
+.icon{
+	width: 40px; 
+	border-radius: 2px; 
+}
+
+.settings-img{
+	width: 30px; 
+	position: relative; 
+	top: 500px; 
+	left: 25px; 
+}
+
+.ajax{
+	position: relative; 
+	top: -160px; 
+	left: 150px; 
+	width: 60%;
+	height: 800px;  
+}
+
+.bg{
+	background: #F9F9F9; 
+}
+
+	
+
+
+
+
+
+
+
+
+
